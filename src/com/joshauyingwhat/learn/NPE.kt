@@ -22,8 +22,7 @@ fun main() {
 
     var rc = r?.capitalize()//r后面追加一个?表示如果r是空的后面的所有逻辑就不用执行
     println(rc)
-
-    //使用带let的安全调用
+       //使用带let的安全调用
     var sex: String? = null
 
 //    sex = ""
@@ -38,7 +37,6 @@ fun main() {
     }
 
     println(l)
-
     //非空断言操作符 !!
     var study:String? = null
     study!!.capitalize() //不管study是不是为null都执行
