@@ -26,7 +26,7 @@ fun main() {
     var sex: String? = null
 
 //    sex = ""
-    sex = "joshauyingwhat"
+    sex = "joshuayingwhat"
     var l = sex?.let {
         if (sex.isBlank()) { //如果sex是""没有内容
 
