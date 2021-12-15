@@ -5,7 +5,7 @@ package com.joshauyingwhat.learn
  */
 fun main() {
 
-    val str = "joshuayingwhat"
+    val str:String? = null
 
     println(str.run(::isLong))
 
