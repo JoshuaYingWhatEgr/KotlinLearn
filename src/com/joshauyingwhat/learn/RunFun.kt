@@ -16,9 +16,7 @@ fun main() {
             .let(::showText))
 }
 
-fun isLong(str: String?): Boolean {
-    return str?.let { it.length > 5 } ?: false
-}
+
 
 fun showText(isLong:Boolean):String {
     return if(isLong) "show text" else "false"
