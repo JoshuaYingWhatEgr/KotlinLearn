@@ -15,6 +15,9 @@ fun main() {
         "越界异常"
     })
 
+    println(list.getOrElse(100, { it }))
+
+
     //一般getOrNull和空合并操作符一起使用
     var orNull = list.getOrNull(3) ?: "越界异常了"
 
